@@ -77,6 +77,7 @@ The official instructions can be found [on Meta's developer site](https://develo
    > If the dialogue box does not show up, AND the headset does not show up in the deivce list, double check that developer mode is enabled with the mobile app. For the school's headsets, the Motorola phones are connected with the Meta Quest App.
    >
    > If the headset is still not registering as a device, and you are on Windows, double check that you installed the [Oculus ADB Drivers](https://developer.oculus.com/downloads/package/oculus-adb-drivers/).
+   ![Image](https://scontent.ftpa1-1.fna.fbcdn.net/v/t39.2365-6/123501957_688453455418503_2729454915805133542_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=-2gGvs3b-GwAX_ID2xt&_nc_ht=scontent.ftpa1-1.fna&oh=00_AfAzOmR_ug-Fssq3zmV2brP_GXu7QS-PgGPMEOzQufYidA&oe=66108785)
 
 ## Checking the device list
 Check the device list to see if your apps can be built to the headset!
@@ -86,8 +87,10 @@ Check the device list to see if your apps can be built to the headset!
 3. Switch the platform to **Android**.
 4. Next to *Run Device*, click on the dropdown.
 5. You should see something like **Oculus Quest 2 (\<Device ID\>)**.
-6. If the device isn't showing, click **Refresh**.
-7. If the device still isn't showing, double check the following:
+   <img width="555" alt="Device List in the Build Settings window" src="https://github.com/AlexWills37/UnityQuest2020Template/assets/77563588/358099bf-c55b-418b-b48d-91d893cc1595">
+
+7. If the device isn't showing, click **Refresh**.
+8. If the device still isn't showing, double check the following:
    
    - The headset is connected to the computer.
    - In the headset, you clicked *Allow USB Debugging*, or you clicked *Always allow from this computer* before.
@@ -107,11 +110,15 @@ If you've setup your computer and the headset correctly, you can now build the t
 5. In the menu bar, navigate to **Edit > Project Settings...**
 6. Navigate to the **Player** tab of the settings.
 7. Change the *Company Name* and *Product Name* for your project.
-8. Scroll down to the **Other Settings** section (inside of the **Player** tab).
-9. Make sure that *Override Default Pacakge Name* is set to false, or that the
+   <img width="839" alt="Player settings with the Company and Product names" src="https://github.com/AlexWills37/UnityQuest2020Template/assets/77563588/ed2c2e76-1994-4980-be91-6d7a63ad43ab">
+
+9. Scroll down to the **Other Settings** section (inside of the **Player** tab).
+10. Make sure that *Override Default Pacakge Name* is set to false, or that the
    *Package Name* is unique to your project.
    > If the package name matches a project that is already installed on the headset (like this template, `com.NCF.UnityQuest2020Template`),
    > and the project is built from a different computer, it will **NOT** install the project to the headset.
+   <img width="842" alt="Package Name Override setting" src="https://github.com/AlexWills37/UnityQuest2020Template/assets/77563588/5cc3a73e-6229-49f4-8cb2-826aa4eb1080">
+
 
 ## Setting up a project from scratch
 This kind of defeats the purpose of the template project, but if the template isn't working, here is how to set everything up from scratch. This takes a long time to import and reimport as the settings change.
@@ -134,5 +141,6 @@ These steps are simplified from [Meta's official tutorial for Unity](https://dev
 6. Go to the **Oculus** tab.
 7. Click **Fix All** under the **Outstanding Issues** tab.
 8. Click **Apply All** under the **Recommended Items** tab.
-9. Add the *OVRCameraRig* prefab to the scene instead of the *Main Camera*
-10. Try building the app to the headset!
+   > ![Oculus settings with the Fix and Apply All buttons](https://private-user-images.githubusercontent.com/77563588/292604196-b57f78da-7810-4ec4-9eaf-6c65430fb591.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA2MzI4MjcsIm5iZiI6MTcxMDYzMjUyNywicGF0aCI6Ii83NzU2MzU4OC8yOTI2MDQxOTYtYjU3Zjc4ZGEtNzgxMC00ZWM0LTllYWYtNmM2NTQzMGZiNTkxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE2VDIzNDIwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMyMGQxM2NiNDhjNDNiOGNjMTQ1ZDcxNDdhYTY3MDkwMzkwZTI1NWM3YTE1MWI2OTc0MzJjZTQwODhkOWU3YjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.UWHN4sQR2T0TY_yU-DPRnblNTk19NhUipRvQBq1O_2M)
+10. Add the *OVRCameraRig* prefab to the scene instead of the *Main Camera*
+11. Try building the app to the headset!
