@@ -89,7 +89,13 @@ crashlytics-build.properties
 # Raycast helper
 !/[Aa]ssets/[Oo]culus/[Ss]ample[Ff]ramework/[Cc]ore/[Dd]ebug[Uu][Ii]/
 !/[Aa]ssets/[Oo]culus/[Ss]ample[Ff]ramework/[Cc]ore/[Dd]ebug[Uu][Ii]/**/*
+!/[Aa]ssets/[Oo]culus/[Ss]ample[Ff]ramework/[Uu]sage/
+/[Aa]ssets/[Oo]culus/[Ss]ample[Ff]ramework/[Uu]sage/*
+!/[Aa]ssets/[Oo]culus/[Ss]ample[Ff]ramework/[Uu]sage/[Ll]ocomotion/
+!/[Aa]ssets/[Oo]culus/[Ss]ample[Ff]ramework/[Uu]sage/[Ll]ocomotion/[Mm]aterials/
+
 
 # Teleport controls
 !/[Aa]ssets/[Oo]culus/[Ss]ample[Ff]ramework/[Cc]ore/[Ll]ocomotion/
 !/[Aa]ssets/[Oo]culus/[Ss]ample[Ff]ramework/[Cc]ore/[Ll]ocomotion/**/*
+!/[Aa]ssets/[Oo]culus/[Ss]ample[Ff]ramework/[Uu]sage/[Ll]ocomotion/[Ss]cripts/
