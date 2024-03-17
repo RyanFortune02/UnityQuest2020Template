@@ -23,6 +23,26 @@ In any case, I recommend reading the document's [*using the template* section he
 >
 > The package name should be unique to your project (**Edit > Project Settings... > Player > Other Settings > *Package Name***).
 
+## Scenes
+
+This template has 3 scenes:
+- **BaseScene** - this scene has the bare minimum components for VR:
+  - *OVR Camera Rig* for VR tracking.
+  - Controller models to show where the player's hands are.
+  - A plane and text box to look at.
+- **WalkingMovement** - this scene demonstrates how to move around, grab items, and interact with UI with the controllers.
+  - *OVRPlayerController* - contains the *OVRCameraRig* and movement scripts.
+  - *Grabbable Objects* - contains objects setup for picking up (see [grabbing objects](#grabbing-objects)).
+  - *Interactive Canvas* - contains the **OVR Raycaster** script and a button to click.
+  - *UIHelpers* - contains the laser pointer and event system for clicking on the UI.
+  - *SceneManager* - contains a custom script to help with switching scenes.
+  - *Environment* - contains the static environment.
+  - *Instructions Canvas* - contains non-interactable text.
+- **TeleportMovement** - scene is similar to **WalkingMovement**, but with teleport contols instead of linear movement.
+  - *PlayerController* - contains the basic movement information.
+    - *OVRCameraRig* - camera rig for VR.
+    - *LocomotionController* - handles the teleport movement controls and behavior.
+  - *Other Objects* - the other objects are the same as the ones listed in **WalkingMovement**.
 
 ## Feature Breakdown
 
