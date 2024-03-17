@@ -523,7 +523,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "This is the minimum setup for a scene that uses the Quest VR headset (OVRCameraRig
-    prefab). \nController models have  been added too.\n\nOther features (UI, teleportation,
+    prefab). \nController models have been added too.\n\nOther features (UI, teleportation,
     grab) come from the SampleFramework. Learn more about them in the other scenes
     and the GitHub README."
 --- !u!222 &1842604531
