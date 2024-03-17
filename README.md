@@ -152,6 +152,8 @@ an **OVR Raycaster** to attach to the canvases with UI elements.
   > This is under the *EventSystem* object of the *UIHelpers*.
 - Change the color of the laser pointer with the *Debug Draw Line* material in the *LaserPointer*.
   > This is under the *LaserPointer* object of the *UIHelpers*. You may have to click an arrow next to the material to change the color.
+  > <img width="1000" alt="LaserPointer" src="https://github.com/AlexWills37/UnityQuest2020Template/assets/77563588/b115b912-5dd3-4f93-92d0-4d2b53229926">
+
 - Change the behavior of the laser pointer with the **SetLaserBehavior** script.
   > Attach this script to the *LaserPointer* object with the **LaserPointer** script to access the behavior variable.
   >
