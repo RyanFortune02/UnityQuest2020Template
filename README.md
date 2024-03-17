@@ -16,6 +16,14 @@ and contains the following features:
 - [Teleportation movement](#teleportation-movement)
 - [UI raycast interactions](#ui-raycast-interactions)
 
+If this is your first time building a Unity app for the Quest 2 headset, I recommend reading the [**FirstSetup.md** document here](./FirstSetup.md).
+
+In any case, I recommend reading the document's [*using the template* section here](./FirstSetup.md#setting-up-a-new-application-with-the-template).
+> Remember to change the Company and Product name in **Edit > Project Settings... > Player**.
+>
+> The package name should be unique to your project (**Edit > Project Settings... > Player > Other Settings > *Package Name***).
+
+
 ## Feature Breakdown
 
 This section explains the different features in this template, a brief description of how they work, and how they can be customized.
@@ -154,3 +162,25 @@ an **OVR Raycaster** to attach to the canvases with UI elements.
   > **On When Hit Target** - the raycast for selecting objects is only visible when the ray is hitting a UI element with *Raycast Target* enabled.
 - Change the cursor with the **Laser Pointer**'s *Cursor Visual*.
   > By default, this is the *Sphere* object that comes with the *UIHelpers* prefab.
+
+## The rest of the Oculus Integration Package
+You may wish to explore the rest of the Oculus Integration Package! Most of the package has been ignored from this repository to save space. In particular, this project only includes the following modules:
+- VR
+- Sample Framework (partial)
+  - Core (partial)
+    - Custom Hands
+    - DebugUI
+    - Locomotion
+
+In particular, you may wish to check out the sample scenes in the Sample Framework folder `Oculus/SampleFramework/Usage/`.
+
+To access the rest of the Oculus Integration Package, you will have to download and import it.
+
+1. Download **v50.0** of the [**Oculus Integration Package**](https://developer.oculus.com/downloads/package/unity-integration/50.0/).
+   > You should end up with a file `OculusIntegration_v50.0.unitypackage`.
+2. Open the Unity Project.
+3. In the menu bar at the top, navigate to **Assets > Import Package > Custom Package...**
+4. Locate and select the `OculusIntegration_v50.0.unitypackage` you downloaded.
+5. Follow any on-screen prompts to import the package and clean up any settings.
+
+If you end up using assets from other parts of the Oculus Integration Package, make sure to change the `.gitignore` to stop ignoring them. 
